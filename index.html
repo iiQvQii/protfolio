@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yen - protfolio</title>
+  <!-- <link rel="stylesheet" type="text/css" href="fullpage.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.10/fullpage.min.css"
+    integrity="sha512-5MGDCtVeXPQtSGLs2lG9mkb1tWc35ZSaBgJca+YMJxOIgLUaopFR28hmwJCk0W2KR8Ydt7vg3E+KS5XwbNFmMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .fp-watermark {
+      display: none !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="fullpage">
+    <div class="section">
+      <div style="width: 1px; height: 600px; background: #000; margin: auto; position: relative;">
+        <div style="width: 10px; height: 10px; background: #000; position: absolute; border-radius: 10px; left: -5px;">
+        </div>
+        <div
+          style="width: 10px; height: 10px; background: #fff; border: 1px solid #000; position: absolute; border-radius: 10px; left: -5px; top: 200px;">
+        </div>
+        <div
+          style="width: 10px; height: 10px; background: #000; position: absolute; border-radius: 10px; left: -5px; top: 400px;">
+        </div>
+      </div>
+
+    </div>
+    <div class="section">Some section</div>
+    <div class="section">Some section</div>
+    <div class="section">Some section</div>
+  </div>
+  <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+  <!-- <script src="vendors/easings.min.js"></script> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.10/fullpage.min.js"
+    integrity="sha512-Xaje5GN/tSuxnQNdbOMppDPWWpPMN0WGfay1St6ckxBqnm3hB66iVqBbLXmujadwsH9KOUVHJZ3GR9QpAEF1GQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    new fullpage('#fullpage', {
+      //options here
+      autoScrolling: true,
+      scrollHorizontally: true
+    });
+  </script>
+</body>
+
+</html>
